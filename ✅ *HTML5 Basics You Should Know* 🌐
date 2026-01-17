@@ -1,0 +1,104 @@
+✅ *HTML5 Basics You Should Know* 🌐
+
+HTML5 is the latest version of HTML (HyperText Markup Language). It structures web content using _elements_ and adds _semantic meaning_, _form control_, _media support_, and _improved accessibility_.
+
+*🧱 Basic Structure of an HTML5 Page:*
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My First Page</title>
+</head>
+<body>
+  <h1>Welcome to HTML5!</h1>
+  <p>This is a simple paragraph.</p>
+</body>
+</html>
+
+
+*📌 Key HTML5 Features with Examples:*
+
+*1️⃣ Semantic Elements* – Makes code readable & SEO-friendly:
+
+<header>My Website Header</header>
+<nav>Links go here</nav>
+<main>
+  <article>News article content</article>
+  <aside>Sidebar info</aside>
+</main>
+<footer>Contact info</footer>
+
+
+*2️⃣ Media Tags* – Add audio and video easily:
+
+<video width="300" controls>
+  <source src="video.mp4" type="video/mp4">
+</video>
+
+<audio controls>
+  <source src="audio.mp3" type="audio/mpeg">
+</audio>
+
+
+*3️⃣ Form Enhancements* – New input types:
+
+<form>
+  <input type="email" placeholder="Enter your email">
+  <input type="date">
+  <input type="range" min="1" max="10">
+  <input type="submit">
+</form>
+
+
+*4️⃣ Canvas & SVG* – Draw graphics in-browser:
+
+<canvas id="myCanvas" width="200" height="100"></canvas>
+
+
+*💡 Why HTML5 Matters:*
+• Cleaner, more semantic structure
+• Native support for multimedia
+• Mobile-friendly and faster loading
+• Enhanced form validation
+
+*🎯 Quick Practice Task:*
+Build a simple HTML5 page that includes:
+- A header
+- Navigation bar
+- Main article
+- Video or image
+- Footer with contact info
+
+
+✅ *HTML5 Basics + Real Interview Questions & Answers* 🌐📋
+
+*1️⃣ Q: What is HTML and why is it important?*
+_A:_ HTML (HyperText Markup Language) is the standard markup language used to create the structure of web pages. It organizes content into headings, paragraphs, links, lists, forms, etc.
+
+*2️⃣ Q: What’s the difference between `<div>` and `<section>`?*
+_A:_ `<div>` is a generic container with no semantic meaning. `<section>` is a semantic tag that groups related content with meaning, useful for SEO and accessibility.
+
+*3️⃣ Q: What is the difference between `<id>` and `<class>` in HTML?*
+_A:_
+- `id` is unique for one element
+- `class` can be reused on multiple elements
+→ `id` is used for specific targeting, `class` for grouping styles.
+
+*4️⃣ Q: What are semantic tags? Name a few.*
+_A:_ Semantic tags clearly describe their purpose. Examples:
+`<header>`, `<nav>`, `<main>`, `<article>`, `<aside>`, `<footer>`
+
+*5️⃣ Q: What is the difference between `<ul>`, `<ol>`, and `<dl>`?*
+_A:_
+- `<ul>` = unordered list (bullets)
+- `<ol>` = ordered list (numbers)
+- `<dl>` = description list (term-definition pairs)
+
+*6️⃣ Q: How does a form work in HTML?*
+_A:_ Forms collect user input using `<input>`, `<textarea>`, `<select>`, etc. Data is sent using the `action` and `method` attributes to a server for processing.
+
+*7️⃣ Q: What is the purpose of the `alt` attribute in an image tag?*
+_A:_ It provides alternative text if the image doesn’t load and improves accessibility for screen readers.
+
+💬 *Double Tap ♥️ For More*
