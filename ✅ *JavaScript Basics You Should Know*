@@ -1,0 +1,72 @@
+✅ *JavaScript Basics You Should Know*   
+
+JavaScript is a scripting language used to make websites *interactive* — handling user actions, animations, and dynamic content.
+
+*1️⃣ Variables & Data Types*  
+Use `let`, `const` (avoid `var`)  
+```js
+let name = "Alex";  
+const age = 25;
+```
+
+*Data Types:* string, number, boolean, object, array, null, undefined  
+
+*2️⃣ Functions*  
+Reusable blocks of code  
+```js
+function greet(user) {
+  return `Hello, user`;
+“`
+Or use arrow functions:  
+“`js
+const greet = (user) => `Hello,{user}`;
+```
+
+*3️⃣ Conditionals*  
+```js
+if (age > 18) {
+  console.log("Adult");
+} else {
+  console.log("Minor");
+}
+```
+
+*4️⃣ Loops*  
+```js
+for (let i = 0; i < 5; i++) {
+  console.log(i);
+}
+```
+
+*5️⃣ Arrays & Objects*  
+```js
+let fruits = ["apple", "banana"];
+let person = { name: "John", age: 30 };
+```
+
+*6️⃣ DOM Manipulation*  
+```js
+document.getElementById("demo").textContent = "Updated!";
+```
+
+*7️⃣ Event Listeners*  
+```js
+button.addEventListener("click", () => alert("Clicked!"));
+```
+
+*8️⃣ Fetch API (Async)*  
+```js
+fetch("https://api.example.com")
+  .then(res => res.json())
+  .then(data => console.log(data));
+```
+
+*9️⃣ ES6 Features*  
+- `let`, `const`  
+- Arrow functions  
+- Template literals `` `Hello ${name}` ``  
+- Destructuring, spread/rest operators
+
+💡 *Tip:* Practice JS in browser console or use online editors like JSFiddle / CodePen
+
+💬 *Tap ❤️ for more*
