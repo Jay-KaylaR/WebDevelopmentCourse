@@ -1,0 +1,95 @@
+✅ *CSS Basics You Should Know* 🎨💻  
+
+CSS (Cascading Style Sheets) is used to *style* HTML elements — adding colors, spacing, layout, and more.
+
+*1️⃣ CSS Syntax*  
+```css
+selector {
+  property: value;
+}
+```
+
+*Example:*  
+```css
+h1 {
+  color: blue;
+  font-size: 32px;
+}
+```
+
+*2️⃣ How to Add CSS*  
+- *Inline:*  
+```html
+<p style="color: red;">Hello</p>
+```
+- *Internal (within HTML):*  
+```html
+<style>
+  p { color: green; }
+</style>
+```
+- *External (best practice):*  
+```html
+<link rel="stylesheet" href="style.css">
+```
+
+*3️⃣ Selectors*  
+- `*` → All elements  
+- `p` → All `<p>` tags  
+- `.class` → Elements with class  
+- `#id` → Element with specific ID  
+```css
+#title { color: blue; }
+.red-text { color: red; }
+```
+
+*4️⃣ Colors & Fonts*  
+```css
+body {
+  background-color: #f2f2f2;
+  color: #333;
+  font-family: Arial, sans-serif;
+}
+```
+
+*5️⃣ Box Model*  
+Every HTML element is a box:  
+*content + padding + border + margin*
+
+*6️⃣ Layout with Flexbox*  
+```css
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+```
+
+*7️⃣ Responsive Design*  
+```css
+@media (max-width: 600px) {
+  body {
+    font-size: 14px;
+  }
+}
+```
+
+*8️⃣ Hover Effects*  
+```css
+button:hover {
+  background-color: black;
+  color: white;
+}
+```
+
+*9️⃣ Common Properties*
+- `color` – Text color  
+- `background-color` – Background  
+- `margin` & `padding` – Spacing  
+- `border` – Border style  
+- `width` / `height` – Size  
+- `text-align` – Alignment  
+
+💡 *Tip:* Organize your styles using class names and external CSS files for better scalability.
+
+💬 *Tap ❤️ for more!*
