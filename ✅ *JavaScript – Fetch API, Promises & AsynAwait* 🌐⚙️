@@ -1,0 +1,53 @@
+  ✅ *JavaScript – Fetch API, Promises & Async/Await* 🌐⚙️
+
+These are essential for handling API calls and asynchronous tasks in modern JavaScript.
+
+*1️⃣ What is Fetch API?*  
+The `fetch()` method is used to make HTTP requests.  
+It returns a *Promise* that resolves to the response.
+
+```javascript
+fetch("https://api.example.com/data")
+  .then(response => response.json())
+  .then(data => console.log(data))
+  .catch(error => console.error("Error:", error));
+```  
+▶️ *This fetches JSON data from a URL and logs it.*
+
+*2️⃣ What is a Promise?*  
+A Promise represents a value that may be available *now*, *later*, or *never*.  
+It has 3 states: *pending*, *resolved*, *rejected*.
+
+```javascript
+const myPromise = new Promise((resolve, reject) => {
+  setTimeout(() => resolve("Success!"), 2000);
+});
+
+myPromise.then(res => console.log(res));
+```  
+▶️ *Logs “Success!” after 2 seconds.*
+
+*3️⃣ Async/Await*  
+A cleaner way to handle Promises using `async` and `await`.
+
+```javascript
+async function getData() {
+  try {
+    const res = await fetch("https://api.example.com/data");
+    const data = await res.json();
+    console.log(data);
+  } catch (error) {
+    console.error("Error:", error);
+  }
+}
+
+getData();
+```  
+▶️ *Same as fetch + then, but more readable using try/catch.*
+
+*🧠 Practice Task:*
+✅ Make a fetch request to a public API  
+✅ Convert it using async/await  
+✅ Handle errors using try...catch  
+
+💬 *Tap ❤️ for more*
