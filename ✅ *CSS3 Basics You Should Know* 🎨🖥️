@@ -1,0 +1,121 @@
+✅ *CSS3 Basics You Should Know* 🎨🖥️  
+
+CSS3 (Cascading Style Sheets – Level 3) controls the *look and feel* of your HTML pages. Here's what you need to master:
+
+*1️⃣ Selectors – Target Elements*  
+Selectors let you apply styles to specific HTML parts:  
+
+p { color: blue; }        /* targets all <p> tags */
+#title { font-size: 24px; } /* targets ID "title" */
+.card { padding: 10px; }   /* targets class "card" */
+
+*2️⃣ Box Model – Understand Layout*  
+Every element is a box with:  
+• *Content* → text/image inside  
+• *Padding* → space around content  
+• *Border* → around the padding  
+• *Margin* → space outside border  
+
+div {
+  padding: 10px;
+  border: 1px solid black;
+  margin: 20px;
+}
+
+
+*3️⃣ Flexbox – Align with Ease*  
+Great for centering or laying out elements:  
+
+.container {
+  display: flex;
+  justify-content: center;  /* horizontal */
+  align-items: center;      /* vertical */
+}
+
+
+*4️⃣ Grid – 2D Layout Power*  
+Use when you need rows *and* columns:  
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 20px;
+}
+
+
+*5️⃣ Responsive Design – Mobile Friendly*  
+Media queries adapt to screen size:  
+
+@media (max-width: 768px) {
+  .card { font-size: 14px; }
+}
+
+
+*6️⃣ Styling Forms & Buttons*
+Make UI friendly:  
+
+input {
+  border: none;
+  padding: 8px;
+  border-radius: 4px;
+}
+button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px;
+}
+
+
+*7️⃣ Transitions & Animations*  
+Add smooth effects:  
+
+.button {
+  transition: background-color 0.3s ease;
+}
+.button:hover {
+  background-color: #333;
+}
+
+
+*🛠️ Practice Task:*  
+Build a card component using Flexbox:  
+• Title, image, description, button  
+• Make it responsive on small screens  
+
+
+✅ *CSS3 Basics + Real Interview Questions & Answers* 🧠📋
+
+*1️⃣ Q: What is CSS and why is it important?*
+*A:* CSS (Cascading Style Sheets) controls the visual presentation of HTML elements—colors, layout, fonts, spacing, and more.
+
+*2️⃣ Q: What’s the difference between `id` and `class` in CSS?*
+*A:*
+- `#id` targets a unique element
+- `.class` targets multiple elements
+→ Use `id` for one-time styles, `class` for reusable styles.
+
+*3️⃣ Q: What is the Box Model in CSS?*
+*A:* Every HTML element is a box with:
+- *content* → actual text/image
+- *padding* → space around content
+- *border* → edge around padding
+- *margin* → space outside the border
+
+*4️⃣ Q: What are pseudo-classes?*
+*A:* Pseudo-classes define a special state of an element. Examples:
+`:hover`, `:first-child`, `:nth-of-type()`
+
+*5️⃣ Q: What is the difference between `relative`, `absolute`, and `fixed` positioning?*
+*A:*
+- `relative` → positioned relative to itself
+- `absolute` → positioned relative to nearest positioned ancestor
+- `fixed` → positioned relative to viewport
+
+*6️⃣ Q: What is Flexbox used for?*
+*A:* Flexbox is a layout model that arranges items in rows or columns, making responsive design easier.
+
+*7️⃣ Q: How do media queries work?*
+*A:* Media queries apply styles based on device characteristics like screen width, height, or orientation.
+
+💬 *Double Tap ♥️ For More*
