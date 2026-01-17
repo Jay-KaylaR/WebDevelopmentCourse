@@ -1,0 +1,69 @@
+✅ *JavaScript Basics for Web Development* 🌐💻  
+
+*1️⃣ Variables – Storing Data*  
+JavaScript uses `let`, `const`, and `var` to declare variables.
+
+```javascript
+let name = "John";       // can change later
+const age = 25;          // constant, can't be changed
+var city = "Delhi";      // older syntax, avoid using it
+```
+▶️ *Tip:* Use `let` for variables that may change and `const` for fixed values.
+
+*2️⃣ Functions – Reusable Blocks of Code*
+
+```javascript
+function greet(user) {
+  return "Hello " + user;
+}
+
+console.log(greet("Alice")); // Output: Hello Alice
+```
+▶️ *Use functions* to avoid repeating the same code.
+
+*3️⃣ Arrays – Lists of Values*
+
+```javascript
+let fruits = ["apple", "banana", "mango"];
+
+console.log(fruits[0]);         // Output: apple
+console.log(fruits.length);     // Output: 3
+```
+▶️ Arrays are used to store multiple items in one variable.
+
+*4️⃣ Loops – Repeating Code*
+
+```javascript
+for (let i = 0; i < 3; i++) {
+  console.log("Hello");
+}
+```
+
+```javascript
+let colors = ["red", "green", "blue"];
+for (let color of colors) {
+  console.log(color);
+}
+```
+▶️ Loops help you run the same code multiple times.
+
+*5️⃣ Conditions – Making Decisions*
+```javascript
+let score = 85;
+
+if (score >= 90) {
+  console.log("Excellent");
+} else if (score >= 70) {
+  console.log("Good");
+} else {
+  console.log("Needs Improvement");
+}
+```
+▶️ Use `if`, `else if`, and `else` to control flow based on logic.
+
+*🎯 Practice Tasks:*  
+• Write a function to check if a number is even or odd  
+• Create an array of 5 names and print each using a loop  
+• Write a condition to check if user is adult (age ≥ 18)
+
+💬 *Tap ❤️ for more!*
