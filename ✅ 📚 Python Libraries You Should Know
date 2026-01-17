@@ -1,0 +1,73 @@
+✅ 📚 Python Libraries You Should Know
+
+1. NumPy – Numerical computing
+- Arrays, matrices, broadcasting
+- Fast operations on large datasets
+- Useful in data science & ML
+
+2. Pandas – Data analysis & manipulation
+- DataFrames and Series
+- Reading/writing CSV, Excel
+- GroupBy, filtering, merging
+
+3. Matplotlib – Data visualization
+- Line, bar, pie, scatter plots
+- Custom styling & labels
+- Save plots as images
+
+4. Seaborn – Statistical plotting
+- Built on Matplotlib
+- Heatmaps, histograms, violin plots
+- Great for EDA
+
+5. Requests – HTTP library
+- Make GET, POST requests
+- Send headers, params, and JSON
+- Used in web scraping and APIs
+
+6. BeautifulSoup – Web scraping
+- Parse HTML/XML easily
+- Find elements using tags, class
+- Navigate and extract data
+
+7. Flask – Web development microframework
+- Lightweight and fast
+- Routes, templates, API building
+- Great for small to medium apps
+
+8. Django – High-level web framework
+- Full-stack: ORM, templates, auth
+- Scalable and secure
+- Ideal for production-ready apps
+
+9. SQLAlchemy – ORM for databases
+- Abstract SQL queries in Python
+- Connect to SQLite, PostgreSQL, etc.
+- Schema creation & query chaining
+
+10. Pytest – Testing framework
+- Simple syntax for test cases
+- Fixtures, asserts, mocking
+- Supports plugins
+
+11. Scikit-learn – Machine Learning
+- Preprocessing, classification, regression
+- Train/test split, pipelines
+- Built on NumPy & Pandas
+
+12. TensorFlow / PyTorch – Deep learning
+- Neural networks, backpropagation
+- GPU support
+- Used in real AI projects
+
+13. OpenCV – Computer vision
+- Image processing, face detection
+- Filters, contours, image transformations
+- Real-time video analysis
+
+14. Tkinter – GUI development
+- Build desktop apps
+- Buttons, labels, input fields
+- Easy drag-and-drop interface
+
+❤️ Double Tap for more ❤️
