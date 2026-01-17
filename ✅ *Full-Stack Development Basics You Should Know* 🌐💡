@@ -1,0 +1,35 @@
+✅ *Full-Stack Development Basics You Should Know* 🌐💡
+
+*1️⃣ What is Full-Stack Development?*  
+Full-stack dev means working on both the *frontend (client-side)* and *backend (server-side)* of a web application.
+
+*2️⃣ Frontend (What Users See)*  
+Languages & Tools:  
+- *HTML* – Structure  
+- *CSS* – Styling  
+- *JavaScript* – Interactivity  
+- *React.js* / *Vue.js* – Frameworks for building dynamic UIs
+
+*3️⃣ Backend (Behind the Scenes)*  
+Languages & Tools:  
+- *Node.js*, *Python*, *PHP* – Handle server logic  
+- *Express.js*, *Django* – Frameworks  
+- *Database* – MySQL, MongoDB, PostgreSQL
+
+*4️⃣ API (Application Programming Interface)*  
+- Connect frontend to backend using *REST APIs*  
+- Send and receive data using JSON
+
+*5️⃣ Database Basics*  
+- *SQL*: Structured data (tables)  
+- *NoSQL*: Flexible data (documents)
+
+*6️⃣ Version Control*  
+- Use *Git* and *GitHub* to manage and share code
+
+*7️⃣ Hosting & Deployment*  
+- Host frontend: *Vercel*, *Netlify*  
+- Host backend: *Render*, *Railway*, *Heroku*
+
+*8️⃣ Authentication*  
+- Implement login/signup using *JWT*, *Sessions*, or *OAuth*
