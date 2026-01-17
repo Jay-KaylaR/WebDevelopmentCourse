@@ -1,0 +1,55 @@
+✅ *JavaScript Fundamentals Part:2 – DOM, Events & Basic Animation* 🎨🖱️  
+
+*1️⃣ What is the DOM?*  
+The *DOM (Document Object Model)* represents your HTML page as a tree of objects. JavaScript can read/change it to make your page dynamic.
+
+Example – Change text of an element:
+```javascript
+document.getElementById("title").innerText = "Hello, World!";
+```
+
+▶️ You can select elements by ID, class, tag, etc.
+
+*2️⃣ Event Handling – Making Web Pages Interactive*  
+Add actions when users click, hover, type, etc.
+
+```javascript
+document.getElementById("btn").addEventListener("click", function() {
+  alert("Button clicked!");
+});
+```
+
+▶️ Events include `click`, `mouseover`, `keydown`, `submit`, etc.
+
+*3️⃣ Changing Styles with JavaScript*
+
+```javascript
+document.getElementById("box").style.backgroundColor = "blue";
+```
+
+▶️ Use `.style` to dynamically change CSS.
+
+*4️⃣ Basic Animation with setInterval*
+
+```javascript
+let pos = 0;
+let box = document.getElementById("box");
+
+let move = setInterval(() => {
+  if (pos >= 200) clearInterval(move);
+  else {
+    pos += 5;
+    box.style.left = pos + "px";
+  }
+}, 50);
+```
+
+▶️ Moves a box 200px to the right in steps.
+
+*🎯 Practice Tasks:*  
+• Create a button that changes background color on click  
+• Make a div move across the screen using setInterval
+• Show a message when user hovers over an image
+
+
+💬 *Tap ❤️ for more!*
