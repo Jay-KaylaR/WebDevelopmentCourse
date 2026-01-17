@@ -1,0 +1,100 @@
+✅ *React.js Essentials* ⚛️🔥
+
+React.js is a *JavaScript library for building user interfaces*, especially single-page apps. Created by Meta, it focuses on components, speed, and interactivity.
+
+*1️⃣ What is React?*  
+React lets you build reusable *UI components* and update the DOM efficiently using a *virtual DOM*.
+
+*Why Use React?*  
+• Reusable components  
+• Faster performance with virtual DOM  
+• Great for building SPAs (Single Page Applications)  
+• Strong community and ecosystem  
+
+*2️⃣ Key Concepts*  
+
+*📦 Components* – Reusable, independent pieces of UI.  
+```jsx
+function Welcome() {
+  return <h1>Hello, React!</h1>;
+}
+```
+
+*🧠 Props* – Pass data to components  
+```jsx
+function Greet(props) {
+  return <h2>Hello, {props.name}!</h2>;
+}
+<Greet name="Riya" />
+```
+
+*💡 State* – Store and manage data in a component  
+```jsx
+import { useState } from 'react';
+
+function Counter() {
+  const [count, setCount] = useState(0);
+  return (
+    <>
+      <p>Count: {count}</p>
+      <button onClick={() => setCount(count + 1)}>Add</button>
+    </>
+  );
+}
+```
+
+*3️⃣ Hooks*  
+
+*useState* – Manage local state  
+*useEffect* – Run side effects (like API calls, DOM updates)  
+```jsx
+import { useEffect } from 'react';
+
+useEffect(() => {
+  console.log("Component mounted");
+}, []);
+```
+
+*4️⃣ JSX*  
+JSX lets you write HTML inside JS.  
+```jsx
+const element = <h1>Hello World</h1>;
+```
+
+*5️⃣ Conditional Rendering*  
+```jsx
+{isLoggedIn ? <Dashboard /> : <Login />}
+```
+
+*6️⃣ Lists and Keys*  
+```jsx
+const items = ["Apple", "Banana"];
+items.map((item, index) => <li key={index}>{item}</li>);
+```
+
+*7️⃣ Event Handling*  
+```jsx
+<button onClick={handleClick}>Click Me</button>
+```
+
+*8️⃣ Form Handling*  
+```jsx
+<input value={name} onChange={(e) => setName(e.target.value)} />
+```
+
+*9️⃣ React Router (Bonus)*  
+To handle multiple pages  
+```bash
+npm install react-router-dom
+```
+```jsx
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+```
+
+*🛠 Practice Tasks*  
+✅ Build a counter  
+✅ Make a TODO app using state  
+✅ Fetch and display API data  
+✅ Try routing between 2 pages
+
+💬 *Tap ❤️ for more*
