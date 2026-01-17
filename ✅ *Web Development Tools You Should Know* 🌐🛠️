@@ -1,0 +1,44 @@
+✅ *Web Development Tools You Should Know* 🌐🛠️  
+
+🔧 *1️⃣ Code Editors*  
+• *VS Code* – Lightweight, powerful, and widely used  
+• *Sublime Text* – Fast with multi-cursor editing  
+• *Atom* – Open-source editor from GitHub  
+
+🌐 *2️⃣ Browsers & DevTools*  
+• *Google Chrome DevTools* – Inspect, debug, and optimize frontend  
+• *Firefox Developer Edition* – Built-in tools for CSS, JS, performance  
+
+📦 *3️⃣ Package Managers*  
+• *npm* – For managing JS packages  
+• *Yarn* – Faster alternative to npm  
+• *pip* – For managing Python packages (for backend devs)  
+
+🔨 *4️⃣ Build Tools & Bundlers*  
+• *Webpack* – Bundle JS, CSS, and assets  
+• *Vite* – Fast dev server + bundler  
+• *Parcel* – Zero config bundler  
+
+🎨 *5️⃣ CSS Frameworks*  
+• *Bootstrap* – Popular, responsive UI framework  
+• *Tailwind CSS* – Utility-first, customizable  
+• *Bulma* – Modern, clean CSS-only framework  
+
+⚙️ *6️⃣ Version Control*  
+• *Git* – Track code changes  
+• *GitHub / GitLab / Bitbucket* – Host and collaborate on projects  
+
+🧪 *7️⃣ Testing Tools*  
+• *Jest* – JavaScript testing framework  
+• *Mocha + Chai* – Flexible test runners  
+• *Cypress* – End-to-end testing in the browser  
+
+📁 *8️⃣ Deployment Platforms*
+• *Netlify* – Fast and easy frontend deployment  
+• *Vercel* – Great for React/Next.js apps  
+• *GitHub Pages* – Free for static websites  
+
+💡 *Tip:*  
+Start with *VS Code + Git + Chrome DevTools* → add tools as your project grows.
+
+💬 *Tap ❤️ for more!*
