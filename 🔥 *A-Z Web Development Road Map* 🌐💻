@@ -1,0 +1,161 @@
+🔥 *A-Z Web Development Road Map* 🌐💻
+
+1. *HTML (HyperText Markup Language)*  
+- Basic structure  
+- Tags, elements, attributes  
+- Forms and inputs  
+- Semantic HTML
+
+2. *CSS (Cascading Style Sheets)*  
+- Selectors  
+- Box model  
+- Flexbox & Grid  
+- Responsive design  
+- Media queries  
+- Transitions and animations  
+
+3. *JavaScript (JS)*  
+- Variables, data types  
+- Functions, scope  
+- Arrays & objects  
+- DOM manipulation  
+- Events  
+- ES6+ features (let/const, arrow functions, destructuring)  
+
+4. *Version Control (Git & GitHub)*  
+- git init, add, commit  
+- Branching & merging  
+- Push & pull  
+- GitHub repos, issues  
+
+5. *Responsive Design*  
+- Mobile-first approach  
+- Flexbox/Grid layout  
+- CSS media queries  
+- Viewport handling
+
+6. *Package Managers*  
+- npm  
+- yarn  
+
+7. *Build Tools*  
+- Webpack  
+- Babel  
+- Vite  
+
+8. *CSS Frameworks*  
+- Bootstrap  
+- Tailwind CSS  
+- Material UI  
+
+9. *JavaScript Frameworks*  
+- React (must-learn)  
+- Vue.js  
+- Angular (optional for advanced learning)
+
+10. *React Core Concepts*  
+- Components  
+- Props & state  
+- Hooks (useState, useEffect, useContext)  
+- Router (react-router-dom)  
+- Form handling  
+- Context API  
+- Redux (for larger projects)
+
+11. *APIs & JSON*  
+- Fetch API / Axios  
+- Working with JSON data
+- RESTful APIs  
+- Async/await & promises  
+
+12. *Authentication*  
+- JWT  
+- Session-based auth  
+- OAuth basics  
+- Firebase Auth
+
+13. *Backend Basics*  
+- Node.js  
+- Express.js  
+- REST API creation  
+- Middlewares  
+- Routing  
+- MVC structure  
+
+14. *Databases*  
+- MongoDB (NoSQL)  
+- Mongoose (ODM)  
+- MySQL/PostgreSQL (SQL)  
+
+15. *Full-Stack Concepts (MERN Stack)*  
+- MongoDB, Express, React, Node.js  
+- Connecting frontend to backend  
+- CRUD operations  
+- Deployment  
+
+16. *Deployment*  
+- GitHub Pages  
+- Netlify  
+- Vercel  
+- Render  
+- Railway  
+- Heroku (limited use now)
+
+17. *Testing (Basics)*  
+- Unit testing with Jest  
+- React Testing Library  
+- Postman for API testing
+
+18. *Web Security*  
+- HTTPS  
+- CORS  
+- XSS, CSRF basics  
+- Helmet, rate-limiting
+
+19. *Dev Tools*  
+- Chrome DevTools  
+- VS Code  
+- Postman  
+- Figma (for UI/UX design)
+
+20. *UI/UX Basics*  
+- Typography  
+- Color theory  
+- Layout design principles  
+- Design-to-code conversion
+
+21. *Soft Skills*  
+- GitHub project showcase  
+- Team collaboration  
+- Communication with designers  
+- Problem-solving & clean code  
+
+22. *Projects to Build*  
+- Portfolio website  
+- To-do list  
+- Blog CMS  
+- Weather app  
+- Chat app  
+- E-commerce front-end  
+- Authentication system  
+- API dashboard
+
+23. *Advanced Topics*  
+- WebSockets  
+- GraphQL  
+- SSR (Next.js)  
+- Web accessibility (a11y)
+
+24. *MERN or Other Stacks*  
+- Full-stack apps  
+- REST API + React front-end  
+- Mongo + Node + Express back-end  
+
+25. *Interview Prep*  
+- JavaScript questions  
+- React concepts  
+- Project walkthroughs  
+- System design (for advanced roles)
+
+
+💬 *Tap ❤️ if this helped you!*
