@@ -1,0 +1,137 @@
+🔥 *A-Z Frontend Development Road Map* 🎨🧠
+
+*1. HTML (HyperText Markup Language)*
+- Structure & layout
+- Semantic tags
+- Forms & validation
+- Accessibility (a11y) basics
+
+*2. CSS (Cascading Style Sheets)*
+- Selectors & specificity
+- Box model
+- Positioning
+- Flexbox & Grid
+- Media queries
+- Animations & transitions
+
+*3. JavaScript (JS)*
+- Variables, data types
+- Functions & scope
+- Arrays, objects, loops
+- DOM manipulation
+- Events & listeners
+- ES6+ features (arrow functions, destructuring, spread/rest)
+
+*4. Responsive Design*
+- Mobile-first approach
+- Viewport units
+- CSS Grid/Flexbox
+- Breakpoints & media queries
+
+*5. Version Control (Git & GitHub)*
+- git init, add, commit
+- Branching & merging
+- GitHub repositories
+- Pull requests & collaboration
+
+*6. CSS Architecture*
+- BEM methodology
+- Utility-first CSS
+- SCSS/SASS basics
+- CSS variables
+
+*7. CSS Frameworks & Preprocessors*
+- Tailwind CSS
+- Bootstrap
+- Material UI
+- SCSS/SASS
+
+*8. JavaScript Frameworks & Libraries*
+- React (core focus)
+- Vue.js (optional)
+- jQuery (legacy understanding)
+
+*9. React Fundamentals*
+- JSX
+- Components
+- Props & state
+- useState, useEffect
+- Conditional rendering
+- Lists & keys
+
+*10. Advanced React*
+- useContext, useReducer
+- Custom hooks
+- React Router
+- Form handling
+- Redux / Zustand / Recoil
+- Performance optimization
+
+*11. API Integration*
+- Fetch API / Axios
+- RESTful APIs
+- Async/await & Promises
+- Error handling
+
+*12. Testing & Debugging*
+- Chrome DevTools
+- React Testing Library
+- Jest basics
+- Debugging techniques
+
+*13. Build Tools & Package Managers*
+- npm / yarn
+- Webpack
+- Vite
+- Babel
+
+*14. Component Libraries & Design Systems*
+- Chakra UI
+- Ant Design
+- Storybook
+
+*15. UI/UX Design Principles*
+- Color theory
+- Typography
+- Spacing & alignment
+- Figma to code
+
+*16. Accessibility (a11y)*
+- ARIA roles
+- Keyboard navigation
+- Semantic HTML
+- Screen reader testing
+
+*17. Performance Optimization*
+- Lazy loading
+- Code splitting
+- Image optimization
+- Lighthouse audits
+
+*18. Deployment*
+- GitHub Pages
+- Netlify
+- Vercel
+
+*19. Soft Skills for Frontend Devs*
+- Communication with designers
+- Code reviews
+- Writing clean, maintainable code
+- Time management
+
+*20. Projects to Build*
+- Responsive portfolio
+- Weather app
+- Quiz app
+- Image gallery
+- Blog UI
+- E-commerce product page
+- Dashboard with charts
+
+*21. Interview Prep*
+- JavaScript & React questions
+- CSS challenges
+- DOM & event handling
+- Project walkthroughs
+
+💬 *Tap ❤️ for more!*
