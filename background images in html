@@ -1,0 +1,107 @@
+Steps and Code Examples
+Here is how you can achieve this:
+1. Set the background on the <body> element 
+The simplest approach is to apply the CSS to the <body> element. 
+HTML:
+html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Non-Repeating Background</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <h1>Welcome to My Website</h1>
+    </header>
+
+    <main>
+        <p>This content is visible over the background image.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+        <!-- Add more content to test scrolling -->
+    </main>
+
+    <footer>
+        <p>&copy; 2026</p>
+    </footer>
+
+</body>
+</html>
+CSS (styles.css):
+css
+body {
+    /* 1. Set the background image URL */
+    background-image: url('your-image.jpg');
+
+    /* 2. Prevent the image from repeating */
+    background-repeat: no-repeat;
+
+    /* 3. Control the image size and visibility */
+    background-size: cover; /* or contain */
+    /* 'cover' scales the image to cover the entire container (might crop edges) */
+    /* 'contain' scales the image to fit entirely within the container (might leave blank space) */
+
+    /* Optional: Ensure the background stays fixed while scrolling */
+    background-attachment: fixed;
+
+    /* Optional: Set a background color for when the image is loading or if it fails to load */
+    background-color: #f0f0f0;
+
+    /* Optional: Set minimum height to ensure the background covers the full screen even with little content */
+    min-height: 100vh;
+    margin: 0; /* Remove default body margin */
+    padding: 20px; /* Add some padding so content isn't flush against the edges */
+}
+
+/* Optional: Style your content to be readable */
+main {
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background for readability */
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    border-radius: 5px;
+}
+2. Using a dedicated div for the background 
+If you need the background applied only to a specific section, or if you want more control over the layering, you can create a background container and place your content on top of it. 
+HTML:
+html
+<body>
+    <div class="background-container"></div>
+    <div class="content">
+        <h1>Content Overlay</h1>
+        <p>This content sits on top of the background image.</p>
+    </div>
+</body>
+CSS:
+css
+.background-container {
+    background-image: url('your-image.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; /* Center the image within the container */
+
+    /* Position the background container */
+    position: fixed; /* Fixes it to the viewport */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1; /* Pushes it behind other content */
+}
+
+.content {
+    position: relative; /* Ensures content is above the background container */
+    z-index: 1;
+    color: white; /* Example text color for readability */
+    /* ... other styling for content ... */
+}
+Key CSS Properties Explained
+background-image: url('image.jpg');: Specifies the path to your image file [1].
+background-repeat: no-repeat;: Crucial for preventing the image from tiling across the screen [1].
+background-size:
+cover: Scales the image to be as large as possible so that the background area is completely covered by the image. The image's width and height ratio is maintained. Some parts of the image may be clipped [2].
+contain: Scales the image to as large as possible without cropping or stretching. The image's width and height ratio is maintained. Empty space might appear [2].
+z-index: When using the div method, setting a negative z-index on the background container places it behind other elements, ensuring your content is not hidden [3]. 
