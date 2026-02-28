@@ -13,11 +13,34 @@ body {
 
 /* Header */
 header {
-  background-color: #333;
-  color: white;
+  background-color: #456;
+  color: yellow;
   text-align: center;
-  padding: 15px;
+  padding: 30px;
 }
+
+.moving-header {
+  /* This ensures the text stays within its normal document flow 
+     until the animation starts, but the animation can move it */
+  position: relative; 
+  /* Define the animation */
+  animation: scrollText 10s linear infinite;
+  /* Ensure a single line if needed */
+  white-space: nowrap; 
+  overflow: hidden; /* Hides the text when it goes out of the container */
+}
+
+/* Define the animation behavior */
+@keyframes scrollText {
+  0% {
+    transform: translateX(0); /* Start position (0% from the left) */
+  }
+  100% {
+    transform: translateX(100%); /* End position (100% of its width away) */
+  }
+}
+
+
 
 /* Section styling */
 section {
@@ -90,7 +113,7 @@ footer {
 <body>
 
 <header>
-  <h1>My Card Layout</h1>
+  <h1 class="moving-header">My Card Layout</h1>
   <p>Using Semantic HTML</p>
 </header>
 
