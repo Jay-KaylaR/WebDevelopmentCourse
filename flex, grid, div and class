@@ -14,7 +14,7 @@ body {
 /* Header */
 header {
   background-color: #456;
-  color: yellow;
+  color: white;
   text-align: center;
   padding: 30px;
 }
